@@ -1,0 +1,18 @@
+{
+  "name": "handling-child-threads",
+  "version": "1.0.0",
+  "description": "In this project we are goint to create and use child threads using one of the popular module of node.js worker_threads module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "noThread":"nodemon app.js",
+    "thread":"nodemon server.js"
+  },
+  "author": "Waleed Bukhari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
